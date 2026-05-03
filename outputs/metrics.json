@@ -1,0 +1,32 @@
+{
+  "rows": 225907,
+  "series": 50,
+  "metadata_used": true,
+  "inferred_fields": [
+    "sensor_type",
+    "humidity"
+  ],
+  "baseline": {
+    "linear_regression": {
+      "rmse": 22.988002193025395,
+      "r2": 0.04137501561806478
+    },
+    "random_forest": {
+      "rmse": 19.992416029768876,
+      "r2": 0.27493516099836224
+    },
+    "gradient_boosting": {
+      "rmse": 18.947124104392902,
+      "r2": 0.3487722723318133
+    }
+  },
+  "neural": {
+    "rmse": 19.136834765034127,
+    "r2": 0.3356660008430481
+  },
+  "constraints": {
+    "monotonic_fraction": 0.674228733703369,
+    "mean_abs_second_diff": 0.012500947427556471,
+    "mean_dip_error_nm": 427.7846666666667
+  }
+}
